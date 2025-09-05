@@ -1,0 +1,155 @@
+{
+  "name": "Afflo Customer Guide",
+  "logo": "/logo.png",
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#6C5CE7",
+    "light": "#ffffff",
+    "dark": "#0f172a"
+  },
+  "topbarLinks": [
+    { "name": "Home", "url": "/start/overview" },
+    { "name": "Support", "url": "/help/contact-support" }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "/start/quick-start"
+  },
+  "navigation": [
+    {
+      "group": "Start Here",
+      "pages": [
+        "start/overview",
+        "start/how-it-works",
+        "start/quick-start",
+        "start/faq"
+      ]
+    },
+    {
+      "group": "Product Tour",
+      "pages": [
+        "tour/dashboard",
+        "tour/creator-search",
+        "tour/social-listen",
+        "tour/affiliate-programs",
+        "tour/affiliates",
+        "tour/link-statistics",
+        "tour/customize",
+        "tour/outreach",
+        "tour/payouts",
+        "tour/integrations",
+        "tour/settings"
+      ]
+    },
+    {
+      "group": "Settings",
+      "pages": [
+        "settings/general",
+        "settings/stores-shopify",
+        "settings/notifications",
+        "settings/security",
+        "settings/appearance",
+        "settings/billing",
+        "settings/team"
+      ]
+    },
+    {
+      "group": "Integrations: Ecommerce",
+      "pages": [
+        "integrations/ecommerce/shopify",
+        "integrations/ecommerce/tiktok-shop"
+      ]
+    },
+    {
+      "group": "Integrations: Marketing",
+      "pages": [
+        "integrations/marketing/klaviyo",
+        "integrations/marketing/connect-your-email",
+        "integrations/marketing/sendlane",
+        "integrations/marketing/postscript",
+        "integrations/marketing/creatorcommerce",
+        "integrations/marketing/abra-promotions",
+        "integrations/marketing/pagefly",
+        "integrations/marketing/zapier",
+        "integrations/marketing/knocommerce",
+        "integrations/marketing/google-analytics"
+      ]
+    },
+    {
+      "group": "Integrations: Social",
+      "pages": [
+        "integrations/social/instagram"
+      ]
+    },
+    {
+      "group": "Integrations: Payments",
+      "pages": [
+        "integrations/payments/tremendous",
+        "integrations/payments/trolley"
+      ]
+    },
+    {
+      "group": "Accounts & Teams",
+      "pages": [
+        "account/sign-up-and-login",
+        "account/your-account",
+        "account/organizations",
+        "account/roles-permissions",
+        "account/invite-team"
+      ]
+    },
+    {
+      "group": "Billing",
+      "pages": [
+        "billing/plans-pricing",
+        "billing/manage-subscription",
+        "billing/invoices"
+      ]
+    },
+    {
+      "group": "For Creators",
+      "pages": [
+        "creators/join-a-program",
+        "creators/your-dashboard",
+        "creators/get-your-link",
+        "creators/payouts",
+        "creators/best-practices"
+      ]
+    },
+    {
+      "group": "Help & Support",
+      "pages": [
+        "help/common-issues",
+        "help/troubleshooting",
+        "help/contact-support"
+      ]
+    },
+    {
+      "group": "Release Notes",
+      "pages": [
+        "changelog"
+      ]
+    },
+    {
+      "group": "Glossary",
+      "pages": [
+        "glossary"
+      ]
+    }
+  ],
+  "redirects": [
+    { "source": "/", "destination": "/start/overview" }
+  ],
+  "modeToggle": true,
+  "footerSocials": {
+    "x": "https://x.com/",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/"
+  },
+  "search": {
+    "provider": "local"
+  },
+  "analytics": {
+    "provider": "none"
+  }
+}
