@@ -1,155 +1,170 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
   "name": "Afflo Customer Guide",
-  "logo": "/logo.png",
-  "favicon": "/favicon.ico",
+  "description": "Friendly, non-technical docs for agencies, teams, and creators using Afflo.",
   "colors": {
     "primary": "#6C5CE7",
-    "light": "#ffffff",
-    "dark": "#0f172a"
+    "light": "#FFFFFF",
+    "dark": "#0F172A"
   },
-  "topbarLinks": [
-    { "name": "Home", "url": "/start/overview" },
-    { "name": "Support", "url": "/help/contact-support" }
-  ],
-  "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "/start/quick-start"
+  "logo": {
+    "light": "/logo.png",
+    "dark": "/logo.png"
   },
-  "navigation": [
-    {
-      "group": "Start Here",
-      "pages": [
-        "start/overview",
-        "start/how-it-works",
-        "start/quick-start",
-        "start/faq"
-      ]
-    },
-    {
-      "group": "Product Tour",
-      "pages": [
-        "tour/dashboard",
-        "tour/creator-search",
-        "tour/social-listen",
-        "tour/affiliate-programs",
-        "tour/affiliates",
-        "tour/link-statistics",
-        "tour/customize",
-        "tour/outreach",
-        "tour/payouts",
-        "tour/integrations",
-        "tour/settings"
-      ]
-    },
-    {
-      "group": "Settings",
-      "pages": [
-        "settings/general",
-        "settings/stores-shopify",
-        "settings/notifications",
-        "settings/security",
-        "settings/appearance",
-        "settings/billing",
-        "settings/team"
-      ]
-    },
-    {
-      "group": "Integrations: Ecommerce",
-      "pages": [
-        "integrations/ecommerce/shopify",
-        "integrations/ecommerce/tiktok-shop"
-      ]
-    },
-    {
-      "group": "Integrations: Marketing",
-      "pages": [
-        "integrations/marketing/klaviyo",
-        "integrations/marketing/connect-your-email",
-        "integrations/marketing/sendlane",
-        "integrations/marketing/postscript",
-        "integrations/marketing/creatorcommerce",
-        "integrations/marketing/abra-promotions",
-        "integrations/marketing/pagefly",
-        "integrations/marketing/zapier",
-        "integrations/marketing/knocommerce",
-        "integrations/marketing/google-analytics"
-      ]
-    },
-    {
-      "group": "Integrations: Social",
-      "pages": [
-        "integrations/social/instagram"
-      ]
-    },
-    {
-      "group": "Integrations: Payments",
-      "pages": [
-        "integrations/payments/tremendous",
-        "integrations/payments/trolley"
-      ]
-    },
-    {
-      "group": "Accounts & Teams",
-      "pages": [
-        "account/sign-up-and-login",
-        "account/your-account",
-        "account/organizations",
-        "account/roles-permissions",
-        "account/invite-team"
-      ]
-    },
-    {
-      "group": "Billing",
-      "pages": [
-        "billing/plans-pricing",
-        "billing/manage-subscription",
-        "billing/invoices"
-      ]
-    },
-    {
-      "group": "For Creators",
-      "pages": [
-        "creators/join-a-program",
-        "creators/your-dashboard",
-        "creators/get-your-link",
-        "creators/payouts",
-        "creators/best-practices"
-      ]
-    },
-    {
-      "group": "Help & Support",
-      "pages": [
-        "help/common-issues",
-        "help/troubleshooting",
-        "help/contact-support"
-      ]
-    },
-    {
-      "group": "Release Notes",
-      "pages": [
-        "changelog"
-      ]
-    },
-    {
-      "group": "Glossary",
-      "pages": [
-        "glossary"
-      ]
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Guide",
+        "icon": "book",
+        "description": "How to get set up and use Afflo",
+        "groups": [
+          {
+            "group": "Start Here",
+            "pages": [
+              "start/overview",
+              "start/how-it-works",
+              "start/quick-start",
+              "start/faq"
+            ]
+          },
+          {
+            "group": "Product Tour",
+            "pages": [
+              "tour/dashboard",
+              "tour/creator-search",
+              "tour/social-listen",
+              "tour/affiliate-programs",
+              "tour/affiliates",
+              "tour/link-statistics",
+              "tour/customize",
+              "tour/outreach",
+              "tour/payouts",
+              "tour/integrations",
+              "tour/settings"
+            ]
+          },
+          {
+            "group": "Settings",
+            "pages": [
+              "settings/general",
+              "settings/stores-shopify",
+              "settings/notifications",
+              "settings/security",
+              "settings/appearance",
+              "settings/billing",
+              "settings/team"
+            ]
+          },
+          {
+            "group": "Accounts & Teams",
+            "pages": [
+              "account/sign-up-and-login",
+              "account/your-account",
+              "account/organizations",
+              "account/roles-permissions",
+              "account/invite-team"
+            ]
+          },
+          {
+            "group": "Billing",
+            "pages": [
+              "billing/plans-pricing",
+              "billing/manage-subscription",
+              "billing/invoices"
+            ]
+          },
+          {
+            "group": "For Creators",
+            "pages": [
+              "creators/join-a-program",
+              "creators/your-dashboard",
+              "creators/get-your-link",
+              "creators/payouts",
+              "creators/best-practices"
+            ]
+          },
+          {
+            "group": "Help & Support",
+            "pages": [
+              "help/common-issues",
+              "help/troubleshooting",
+              "help/contact-support"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Integrations",
+        "icon": "puzzle",
+        "description": "Connect your store, marketing, and payments tools",
+        "groups": [
+          {
+            "group": "Ecommerce",
+            "pages": [
+              "integrations/ecommerce/shopify",
+              "integrations/ecommerce/tiktok-shop"
+            ]
+          },
+          {
+            "group": "Marketing",
+            "pages": [
+              "integrations/marketing/klaviyo",
+              "integrations/marketing/connect-your-email",
+              "integrations/marketing/sendlane",
+              "integrations/marketing/postscript",
+              "integrations/marketing/creatorcommerce",
+              "integrations/marketing/abra-promotions",
+              "integrations/marketing/pagefly",
+              "integrations/marketing/zapier",
+              "integrations/marketing/knocommerce",
+              "integrations/marketing/google-analytics"
+            ]
+          },
+          {
+            "group": "Social",
+            "pages": [
+              "integrations/social/instagram"
+            ]
+          },
+          {
+            "group": "Payments",
+            "pages": [
+              "integrations/payments/tremendous",
+              "integrations/payments/trolley"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Changelog",
+        "icon": "history",
+        "description": "Updates and improvements",
+        "pages": [
+          "changelog"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      { "label": "Support", "href": "/help/contact-support" }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "/start/quick-start"
     }
-  ],
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "github": "https://github.com/"
+    }
+  },
   "redirects": [
-    { "source": "/", "destination": "/start/overview" }
-  ],
-  "modeToggle": true,
-  "footerSocials": {
-    "x": "https://x.com/",
-    "github": "https://github.com/",
-    "linkedin": "https://www.linkedin.com/"
-  },
-  "search": {
-    "provider": "local"
-  },
-  "analytics": {
-    "provider": "none"
-  }
+    { "source": "/", "destination": "/start/overview", "permanent": true }
+  ]
 }
