@@ -149,12 +149,12 @@
   },
   "navbar": {
     "links": [
-      { "label": "Support", "href": "/help/contact-support" }
+      { "label": "Support", "href": "https://afflo.example.com/support" }
     ],
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "/start/quick-start"
+      "href": "https://afflo.example.com/start"
     }
   },
   "footer": {
